@@ -13,6 +13,7 @@
 	getVersion	KEYWORD2
 	getPullI2C	KEYWORD2
 	setPullI2C	KEYWORD2
+	getCalibration	KEYWORD2
 	setCalibration	KEYWORD2
 	getKnownPH	KEYWORD2
 	setKnownPH	KEYWORD2

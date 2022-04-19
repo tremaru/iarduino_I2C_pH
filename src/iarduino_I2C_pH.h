@@ -1,5 +1,5 @@
 //	Библиотека для работы с Trema модулем pH-метр, I2C-flash для Arduino: https://iarduino.ru/shop/Sensory-Datchiki/datchik-kislotnosti-zhidkosti-ph-metr-flash-i2c.html
-//  Версия: 1.1.1
+//  Версия: 1.1.4
 //  Последнюю версию библиотеки Вы можете скачать по ссылке: https://iarduino.ru/file/559.html
 //  Подробное описание функций бибилиотеки доступно по ссылке: https://wiki.iarduino.ru/page/ph-i2c/
 //  Библиотека является собственностью интернет магазина iarduino.ru и может свободно использоваться и распространяться!
@@ -47,6 +47,7 @@
 #define			PH_FLG_STATUS_1			0x40																	//	Флаг  регистра REG_PH_CALIBRATION информирует о выполнении 1 стадии калибровки.
 #define			PH_BIT_CALC_2			0x02																	//	Бит   регистра REG_PH_CALIBRATION указывает модулю выполнить 2 стадию калибровки модуля.
 #define			PH_BIT_CALC_1			0x01																	//	Бит   регистра REG_PH_CALIBRATION указывает модулю выполнить 1 стадию калибровки модуля.
+#define			PH_CODE_CALC_SAVE		0x24																	//	Код   разрешения записи калибровочных данных.
 																												//
 class iarduino_I2C_pH{																							//
 	public:																										//

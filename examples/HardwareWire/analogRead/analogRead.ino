@@ -1,5 +1,9 @@
 // ПРИМЕР ЧТЕНИЯ ДАННЫХ С АНАЛОГОВОГО ВХОДА:      // * Строки со звёздочкой являются необязательными.
                                                   //
+// Датчик кислотности жидкости (pH-метр) с щупом: //   https://iarduino.ru/shop/Sensory-Datchiki/datchik-kislotnosti-zhidkosti-ph-metr-flash-i2c.html
+// Модуль кислотности жидкости (pH-метр):         //   https://iarduino.ru/shop/Expansion-payments/modul-dlya-datchika-kislotnosti-zhidkosti-ph-metr-flash-i2c.html
+// Информация о модуле и описание библиотеки:     //   https://wiki.iarduino.ru/page/line-bumper/
+                                                  //
 float pHn  = 7.0;                                 //   Нейтральный водородный показатель для датчика. Водородный показатель при котором напряжение с датчика равно 0.
 float Vstp = 0.05916;                             //   Шаг изменения напряжения датчика в В, при изменении pH жидкости на 1.0.
 float Vn   = 3.3 / 2;                             //   Нейтральное напряжение на выходе модуля. Напряжение на выходе модуля при 7.0 pH.

@@ -1,5 +1,5 @@
 //	Библиотека для работы с Trema модулем pH-метр, I2C-flash для Arduino: https://iarduino.ru/shop/Sensory-Datchiki/datchik-kislotnosti-zhidkosti-ph-metr-flash-i2c.html
-//  Версия: 1.2.1
+//  Версия: 1.2.2
 //  Последнюю версию библиотеки Вы можете скачать по ссылке: https://iarduino.ru/file/559.html
 //  Подробное описание функций бибилиотеки доступно по ссылке: https://wiki.iarduino.ru/page/ph-i2c/
 //  Библиотека является собственностью интернет магазина iarduino.ru и может свободно использоваться и распространяться!
